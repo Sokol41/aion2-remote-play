@@ -1,0 +1,9 @@
+aion2-remote-play 6.0.0
+Build date: 2026-11-16
+Windows .NET SDK: 10.0.404
+Target: net10.0-windows, x64, framework-dependent Windows Forms
+HIDMaestro.Core: 2.1.0.0
+Release build: no PDB; build paths mapped to /src
+Built-in tests passed on Windows: keyboard mapping/chords/releases, NKRO profiles, five mouse buttons, L/R independent press/release permutations without middle emulation, wheel, UI arming/cancel/enable/stop/emergency/error/translation states.
+UI tests use mock input backends; they do not send real input.
+V6 desktop/game smoke test over remote streaming: pending. Earlier bridge version was user-tested with Sunshine/Moonlight and Aion 2.

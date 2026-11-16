@@ -1,0 +1,9 @@
+aion2-remote-play v6.0 — virtual HID bridge for Windows remote input
+
+Redirects supported software-injected keyboard, mouse-button and wheel events through HIDMaestro virtual HID devices. Original events are suppressed to avoid duplicate input; pointer movement stays with the original remote-access software.
+
+One button enables keyboard and mouse; clicking again disables the bridge. Includes a three-second countdown, Ctrl+Alt+Pause emergency OFF, English/Russian UI and a 90-second test. Supports common key combinations, five mouse buttons and scrolling. Left+right never synthesizes middle-click; physical middle-click is preserved.
+
+The project's tested stack is Sunshine/Moonlight with Aion 2 using the earlier bridge version. V6 has passed compilation and built-in tests; a separate game test of this new build is pending. The bridge is not tied to Sunshine: other software using equivalent injected input in the same Windows session is expected to work. Other remote-access programs have not been separately verified.
+
+Requires Windows x64, .NET Desktop Runtime 10, HIDMaestro 2.1.0 with its driver installed, and administrator access. The bridge does not stream video or replace remote access. No Sunshine rebuild or additional hardware required. Bridge source is MIT; upstream notices are included.
