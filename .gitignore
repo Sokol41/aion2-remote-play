@@ -1,0 +1,10 @@
+/.build/
+**/bin/
+**/obj/
+*.log
+*.pdb
+*.dll
+*.exe
+*.zip
+selftest.txt
+off.request
